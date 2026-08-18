@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "exported_at": "2026-08-11T19:41:11.325619+00:00",
+  "count": 20,
+  "memories": [
+    {
+      "id": "1eb9fd14-797a-4df1-b846-82ad3dbb263d",
+      "memory_type": "conversation",
+      "content": "Mock model response to: Relevant memory context:\n\nMemory 1\nType: conversation\nContent: Hello AURA\nImportance: 0.60\nRelevance: 0.8601\nMetadata: role=user\n\nMemory 2\nType: conversation\nContent: Mock model response to: Hello AURA\nImportance: 0.60\nRelevance: 0.5601\nMetadata: role=assistant, provider=mock, model=mock-model\n\nMemory 3\nType: fact\nContent: AURA memory API test.\nImportance: 0.80\nRelevance: 0.5173\nMetadata: source=api-test\n\nMemory 4\nType: project\nContent: AURA uses FastAPI for its API.\nImportance: 0.90\nRelevance: 0.5166\n\nMemory 5\nType: project\nContent: AURA uses FastAPI and SQLite.\nImportance: 0.90\nRelevance: 0.4986\nMetadata: source=manual\n\nCurrent user request:\nHello AURA\n\nUse the relevant memory context only when it helps answer the current request.",
+      "importance": 0.8,
+      "created_at": "2026-08-11T19:08:13.163114+00:00",
+      "updated_at": "2026-08-11T19:39:17.220215+00:00",
+      "access_count": 2,
+      "last_accessed_at": "2026-08-11T19:39:17.220215+00:00",
+      "metadata": {
+        "role": "assistant",
+        "source": "conversation",
+        "provider": "mock",
+        "model": "mock-model"
+      }
+    },
+    {
+      "id": "dc7f9fc6-45fc-490e-9e6f-be3656f2a6a4",
+      "memory_type": "project",
+      "content": "AURA uses FastAPI and SQLite.",
+      "importance": 0.9,
+      "created_at": "2026-08-11T18:58:13.099265+00:00",
+      "updated_at": "2026-08-11T19:08:13.110142+00:00",
+      "access_count": 1,
+      "last_accessed_at": "2026-08-11T19:08:13.110142+00:00",
+      "metadata": {
+        "source": "manual"
+      }
+    },
+    {
+      "id": "6419673a-51ba-40ae-a768-e2d01f769405",
+      "memory_type": "fact",
+      "content": "AURA general fact.",
+      "importance": 0.5,
+      "created_at": "2026-08-11T18:56:38.836934+00:00",
+      "updated_at": "2026-08-11T19:39:17.432051+00:00",
+      "access_count": 0,
+      "last_accessed_at": null,
+      "metadata": {}
+    },
+    {
+      "id": "7f52f7b9-ec2c-4b7f-8f5e-995ab6499b71",
+      "memory_type": "project",
+      "content": "AURA API project information.",
+      "importance": 0.5,
+      "created_at": "2026-08-11T18:56:38.823280+00:00",
+      "updated_at": "2026-08-11T19:39:17.420195+00:00",
+      "access_count": 0,
+      "last_accessed_at": null,
+      "metadata": {}
+    },
+    {
+      "id": "4cac2ec6-4a5e-4817-b612-bf487bd5ac86",
+      "memory_type": "fact",
+      "content": "Football is a popular sport.",
+      "importance": 0.5,
+      "created_at": "2026-08-11T18:56:38.791687+00:00",
+      "updated_at": "2026-08-11T19:39:17.390950+00:00",
+      "access_count": 0,
+      "last_accessed_at": null,
+      "metadata": {}
+    },
+    {
+      "id": "7190ea33-f4f6-4273-b147-58d07c2282fd",
+      "memory_type": "project",
+      "content": "AURA uses FastAPI for its API.",
+      "importance": 0.9,
+      "created_at": "2026-08-11T18:56:38.776973+00:00",
+      "updated_at": "2026-08-11T19:39:17.379091+00:00",
+      "access_count": 2,
+      "last_accessed_at": "2026-08-11T19:08:13.059271+00:00",
+      "metadata": {}
+    },
+    {
+      "id": "713f11ba-7d97-496e-85b8-60b95e7e395d",
+      "memory_type": "fact",
+      "content": "Get memory test.",
+      "importance": 0.5,
+      "created_at": "2026-08-11T18:56:38.733159+00:00",
+      "updated_at": "2026-08-11T19:39:17.342248+00:00",
+      "access_count": 0,
+      "last_accessed_at": null,
+      "metadata": {}
+    },
+    {
+      "id": "4b62d134-5ed6-4b44-8fa3-0f1f1a945dee",
+      "memory_type": "fact",
+      "content": "List memory test.",
+      "importance": 0.5,
+      "created_at": "2026-08-11T18:56:38.700317+00:00",
+      "updated_at": "2026-08-11T19:39:17.314918+00:00",
+      "access_count": 0,
+      "last_accessed_at": null,
+      "metadata": {}
+    },
+    {
+      "id": "d44d6d0c-86e1-4cff-b812-d214888a5364",
+      "memory_type": "fact",
+      "content": "AURA memory API test.",
+      "importance": 0.8,
+      "created_at": "2026-08-11T18:56:38.670207+00:00",
+      "updated_at": "2026-08-11T19:39:17.289301+00:00",
+      "access_count": 2,
+      "last_accessed_at": "2026-08-11T19:08:13.011570+00:00",
+      "metadata": {
+        "source": "api-test"
+      }
+    },
+    {
+      "id": "b868c8a8-79ed-4733-8b18-ea2843279bae",
+      "memory_type": "conversation",
+      "content": "Mock model response to: Relevant memory context:\n\nMemory 1\nType: conversation\nContent: Hello AURA\nImportance: 0.60\nRelevance: 0.8368\nMetadata: role=user\n\nMemory 2\nType: conversation\nContent: Mock model response to: Hello AURA\nImportance: 0.60\nRelevance: 0.5368\nMetadata: role=assistant, provider=mock, model=mock-model\n\nMemory 3\nType: conversation\nContent: My favorite backend framework for AURA is FastAPI.\nImportance: 0.60\nRelevance: 0.4294\nMetadata: role=user\n\nMemory 4\nType: conversation\nContent: Mock model response to: Relevant memory context:\n\nMemory 1\nType: conversation\nContent: Hello AURA\nImportance: 0.60\nRelevance: 0.8302\nMetadata: role=user\n\nMemory 2\nType: conversation\nContent: Mock model response to: Hello AURA\nImportance: 0.60\nRelevance: 0.5302\nMetadata: role=assistant, provider=mock, model=mock-model\n\nMemory 3\nType: conversation\nContent: My favorite backend framework for AURA is FastAPI.\nImportance: 0.60\nRelevance: 0.4211\nMetadata: role=user\n\nMemory 4\nType: conversation\nContent: FastAPI is a popular choice for building APIs with AURA. It's known for its speed, scalability, and ease of use. Have you considered using it for your project?\nImportance: 0.60\nRelevance: 0.3877\nMetadata: role=assistant, provider=ollama, model=llama3.2:3b\n\nMemory 5\nType: conversation\nContent: Mock model response to: Relevant memory context:\n\nMemory 1\nType: conversation\nContent: Hello AURA\nImportance: 0.60\nRelevance: 0.8564\nMetadata: role=user\n\nMemory 2\nType: conversation\nContent: Mock model response to: Hello AURA\nImportance: 0.60\nRelevance: 0.5564\nMetadata: role=assistant, provider=mock, model=mock-model\n\nMemory 3\nType: conversation\nContent: My favorite backend framework for AURA is FastAPI.\nImportance: 0.60\nRelevance: 0.4447\nMetadata: role=user\n\nMemory 4\nType: conversation\nContent: FastAPI is a popular choice for building APIs with AURA. It's known for its speed, scalability, and ease of use. Have you considered using it for your project?\nImportance: 0.60\nRelevance: 0.4114\nMetadata: role=assistant, provider=ollama, model=llama3.2:3b\n\nMemory 5\nType: conversation\nContent: What backend framework did I mention?\nImportance: 0.60\nRelevance: 0.3780\nMetadata: role=user\n\nCurrent user request:\nHello AURA\n\nUse the relevant memory context only when it helps answer the current request.\nImportance: 0.80\nRelevance: 0.3762\nMetadata: role=assistant, source=conversation, provider=mock, model=mock-model\n\nCurrent user request:\nHello AURA\n\nUse the relevant memory context only when it helps answer the current request.\nImportance: 0.80\nRelevance: 0.4096\nMetadata: role=assistant, source=conversation, provider=mock, model=mock-model\n\nMemory 5\nType: conversation\nContent: Mock model response to: Relevant memory context:\n\nMemory 1\nType: conversation\nContent: Hello AURA\nImportance: 0.60\nRelevance: 0.8564\nMetadata: role=user\n\nMemory 2\nType: conversation\nContent: Mock model response to: Hello AURA\nImportance: 0.60\nRelevance: 0.5564\nMetadata: role=assistant, provider=mock, model=mock-model\n\nMemory 3\nType: conversation\nContent: My favorite backend framework for AURA is FastAPI.\nImportance: 0.60\nRelevance: 0.4447\nMetadata: role=user\n\nMemory 4\nType: conversation\nContent: FastAPI is a popular choice for building APIs with AURA. It's known for its speed, scalability, and ease of use. Have you considered using it for your project?\nImportance: 0.60\nRelevance: 0.4114\nMetadata: role=assistant, provider=ollama, model=llama3.2:3b\n\nMemory 5\nType: conversation\nContent: What backend framework did I mention?\nImportance: 0.60\nRelevance: 0.3780\nMetadata: role=user\n\nCurrent user request:\nHello AURA\n\nUse the relevant memory context only when it helps answer the current request.\nImportance: 0.80\nRelevance: 0.4041\nMetadata: role=assistant, source=conversation, provider=mock, model=mock-model\n\nCurrent user request:\nHello AURA\n\nUse the relevant memory context only when it helps answer the current request.",
+      "importance": 0.8,
+      "created_at": "2026-08-11T18:46:54.230117+00:00",
+      "updated_at": "2026-08-11T18:46:54.230120+00:00",
+      "access_count": 0,
+      "last_accessed_at": null,
+      "metadata": {
+        "role": "assistant",
+        "source": "conversation",
+        "provider": "mock",
+        "model": "mock-model"
+      }
+    },
+    {
+      "id": "73f87c5b-5408-4639-b37c-b00d96287e54",
+      "memory_type": "conversation",
+      "content": "Mock model response to: Relevant memory context:\n\nMemory 1\nType: conversation\nContent: Hello AURA\nImportance: 0.60\nRelevance: 0.8302\nMetadata: role=user\n\nMemory 2\nType: conversation\nContent: Mock model response to: Hello AURA\nImportance: 0.60\nRelevance: 0.5302\nMetadata: role=assistant, provider=mock, model=mock-model\n\nMemory 3\nType: conversation\nContent: My favorite backend framework for AURA is FastAPI.\nImportance: 0.60\nRelevance: 0.4211\nMetadata: role=user\n\nMemory 4\nType: conversation\nContent: FastAPI is a popular choice for building APIs with AURA. It's known for its speed, scalability, and ease of use. Have you considered using it for your project?\nImportance: 0.60\nRelevance: 0.3877\nMetadata: role=assistant, provider=ollama, model=llama3.2:3b\n\nMemory 5\nType: conversation\nContent: Mock model response to: Relevant memory context:\n\nMemory 1\nType: conversation\nContent: Hello AURA\nImportance: 0.60\nRelevance: 0.8564\nMetadata: role=user\n\nMemory 2\nType: conversation\nContent: Mock model response to: Hello AURA\nImportance: 0.60\nRelevance: 0.5564\nMetadata: role=assistant, provider=mock, model=mock-model\n\nMemory 3\nType: conversation\nContent: My favorite backend framework for AURA is FastAPI.\nImportance: 0.60\nRelevance: 0.4447\nMetadata: role=user\n\nMemory 4\nType: conversation\nContent: FastAPI is a popular choice for building APIs with AURA. It's known for its speed, scalability, and ease of use. Have you considered using it for your project?\nImportance: 0.60\nRelevance: 0.4114\nMetadata: role=assistant, provider=ollama, model=llama3.2:3b\n\nMemory 5\nType: conversation\nContent: What backend framework did I mention?\nImportance: 0.60\nRelevance: 0.3780\nMetadata: role=user\n\nCurrent user request:\nHello AURA\n\nUse the relevant memory context only when it helps answer the current request.\nImportance: 0.80\nRelevance: 0.3762\nMetadata: role=assistant, source=conversation, provider=mock, model=mock-model\n\nCurrent user request:\nHello AURA\n\nUse the relevant memory context only when it helps answer the current request.",
+      "importance": 0.8,
+      "created_at": "2026-08-11T18:35:53.662636+00:00",
+      "updated_at": "2026-08-11T19:39:17.199314+00:00",
+      "access_count": 7,
+      "last_accessed_at": "2026-08-11T19:39:17.199314+00:00",
+      "metadata": {
+        "role": "assistant",
+        "source": "conversation",
+        "provider": "mock",
+        "model": "mock-model"
+      }
+    },
+    {
+      "id": "8f761edb-6777-41e1-97fa-6da038215e9d",
+      "memory_type": "conversation",
+      "content": "Mock model response to: Relevant memory context:\n\nMemory 1\nType: conversation\nContent: Hello AURA\nImportance: 0.60\nRelevance: 0.8564\nMetadata: role=user\n\nMemory 2\nType: conversation\nContent: Mock model response to: Hello AURA\nImportance: 0.60\nRelevance: 0.5564\nMetadata: role=assistant, provider=mock, model=mock-model\n\nMemory 3\nType: conversation\nContent: My favorite backend framework for AURA is FastAPI.\nImportance: 0.60\nRelevance: 0.4447\nMetadata: role=user\n\nMemory 4\nType: conversation\nContent: FastAPI is a popular choice for building APIs with AURA. It's known for its speed, scalability, and ease of use. Have you considered using it for your project?\nImportance: 0.60\nRelevance: 0.4114\nMetadata: role=assistant, provider=ollama, model=llama3.2:3b\n\nMemory 5\nType: conversation\nContent: What backend framework did I mention?\nImportance: 0.60\nRelevance: 0.3780\nMetadata: role=user\n\nCurrent user request:\nHello AURA\n\nUse the relevant memory context only when it helps answer the current request.",
+      "importance": 0.8,
+      "created_at": "2026-08-11T13:19:55.010097+00:00",
+      "updated_at": "2026-08-11T19:39:17.211367+00:00",
+      "access_count": 7,
+      "last_accessed_at": "2026-08-11T19:39:17.211367+00:00",
+      "metadata": {
+        "role": "assistant",
+        "source": "conversation",
+        "provider": "mock",
+        "model": "mock-model"
+      }
+    },
+    {
+      "id": "9d26277d-248e-4588-a21a-e36e8244ac23",
+      "memory_type": "conversation",
+      "content": "Memory 1 and Memory 2 both contain the information about what backend framework you mentioned. However, Memory 2 is more recent and relevant to the current conversation.\n\nYou mentioned FastAPI as your favorite backend framework for AURA in Memory 2.",
+      "importance": 0.6,
+      "created_at": "2026-08-11T13:14:34.606361+00:00",
+      "updated_at": "2026-08-11T13:14:34.606367+00:00",
+      "access_count": 0,
+      "last_accessed_at": null,
+      "metadata": {
+        "role": "assistant",
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      }
+    },
+    {
+      "id": "99e66dc2-0bf5-4f9c-844b-a5dd9b8b74f8",
+      "memory_type": "conversation",
+      "content": "What backend framework did I mention?",
+      "importance": 0.6,
+      "created_at": "2026-08-11T13:14:34.596086+00:00",
+      "updated_at": "2026-08-11T13:14:34.596092+00:00",
+      "access_count": 0,
+      "last_accessed_at": null,
+      "metadata": {
+        "role": "user"
+      }
+    },
+    {
+      "id": "60f8a431-0c54-47e1-9fb5-8e65986e36a7",
+      "memory_type": "conversation",
+      "content": "FastAPI.",
+      "importance": 0.6,
+      "created_at": "2026-08-11T13:13:30.781225+00:00",
+      "updated_at": "2026-08-11T13:13:30.781229+00:00",
+      "access_count": 0,
+      "last_accessed_at": null,
+      "metadata": {
+        "role": "assistant",
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      }
+    },
+    {
+      "id": "bc935fec-fec5-46ac-b226-9c1d53acf692",
+      "memory_type": "conversation",
+      "content": "What backend framework did I mention?",
+      "importance": 0.6,
+      "created_at": "2026-08-11T13:13:30.771716+00:00",
+      "updated_at": "2026-08-11T13:19:54.952320+00:00",
+      "access_count": 2,
+      "last_accessed_at": "2026-08-11T13:19:54.952320+00:00",
+      "metadata": {
+        "role": "user"
+      }
+    },
+    {
+      "id": "cc0edb85-0c6b-4239-8ae3-7088d76fcda7",
+      "memory_type": "conversation",
+      "content": "FastAPI is a popular choice for building APIs with AURA. It's known for its speed, scalability, and ease of use. Have you considered using it for your project?",
+      "importance": 0.6,
+      "created_at": "2026-08-11T13:11:56.996062+00:00",
+      "updated_at": "2026-08-11T18:35:53.644353+00:00",
+      "access_count": 4,
+      "last_accessed_at": "2026-08-11T18:35:53.644353+00:00",
+      "metadata": {
+        "role": "assistant",
+        "provider": "ollama",
+        "model": "llama3.2:3b"
+      }
+    },
+    {
+      "id": "0c661bcb-c97d-48a8-bd6d-06bcfc122868",
+      "memory_type": "conversation",
+      "content": "My favorite backend framework for AURA is FastAPI.",
+      "importance": 0.6,
+      "created_at": "2026-08-11T13:11:56.933398+00:00",
+      "updated_at": "2026-08-11T18:56:38.554266+00:00",
+      "access_count": 8,
+      "last_accessed_at": "2026-08-11T18:56:38.554266+00:00",
+      "metadata": {
+        "role": "user"
+      }
+    },
+    {
+      "id": "0760338d-6537-4243-8584-1a7e580ad37c",
+      "memory_type": "conversation",
+      "content": "Mock model response to: Hello AURA",
+      "importance": 0.6,
+      "created_at": "2026-08-11T13:09:29.400937+00:00",
+      "updated_at": "2026-08-11T19:39:17.249773+00:00",
+      "access_count": 13,
+      "last_accessed_at": "2026-08-11T19:39:17.229344+00:00",
+      "metadata": {
+        "role": "assistant",
+        "provider": "mock",
+        "model": "mock-model",
+        "source": "conversation"
+      }
+    },
+    {
+      "id": "481fcedf-af8b-443a-be23-d5b3802d573e",
+      "memory_type": "conversation",
+      "content": "Hello AURA",
+      "importance": 0.6,
+      "created_at": "2026-08-11T13:09:29.381729+00:00",
+      "updated_at": "2026-08-11T19:39:17.239089+00:00",
+      "access_count": 13,
+      "last_accessed_at": "2026-08-11T19:39:17.239089+00:00",
+      "metadata": {
+        "role": "user"
+      }
+    }
+  ]
+}
