@@ -1,0 +1,11 @@
+import PlanDetails from "@/components/plans/PlanDetails";
+
+export default async function PlanDetailsPage({
+  params,
+}: {
+  params: Promise<{ planId: string }>;
+}) {
+  const { planId } = await params;
+
+  return <PlanDetails planId={planId} />;
+}
